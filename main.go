@@ -20,8 +20,12 @@ import (
 // Go Web 开发比较通用的脚手架模版
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Println("need usage: web_app <config-file>")
+		return
+	}
 	// 1. 加载配置
-	if err := settings.Init(); err != nil {
+	if err := settings.Init(os.Args[1]); err != nil {
 		fmt.Printf("init settings failed, err:%v\n", err)
 		return
 	}

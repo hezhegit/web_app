@@ -33,3 +33,7 @@
 {"level":"INFO","time":"2025-01-09T11:07:49.143+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000011667}
 {"level":"INFO","time":"2025-01-09T11:07:58.251+0800","caller":"web_app/main.go:71","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2025-01-09T11:07:58.251+0800","caller":"web_app/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T14:08:47.917+0800","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T14:08:58.783+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000020791}
+{"level":"INFO","time":"2025-01-09T14:09:06.962+0800","caller":"web_app/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T14:09:06.962+0800","caller":"web_app/main.go:84","msg":"Server exiting"}
