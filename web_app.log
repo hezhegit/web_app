@@ -1,3 +1,35 @@
 {"level":"DEBUG","time":"2025-01-08T22:52:24.453+0800","caller":"web_app/main.go:36","msg":"logger init success"}
 {"level":"INFO","time":"2025-01-08T22:53:15.285+0800","caller":"web_app/main.go:73","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2025-01-08T22:53:15.286+0800","caller":"web_app/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T10:34:47.875+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"DEBUG","time":"2025-01-09T10:36:09.144+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"DEBUG","time":"2025-01-09T10:42:47.366+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T10:46:30.096+0800","caller":"web_app/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T10:46:30.098+0800","caller":"web_app/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T10:46:38.377+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T10:52:45.722+0800","caller":"web_app/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T10:52:45.723+0800","caller":"web_app/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T10:52:48.943+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T10:55:20.855+0800","caller":"web_app/main.go:72","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T10:55:20.856+0800","caller":"web_app/main.go:81","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T10:57:15.300+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T10:57:25.183+0800","caller":"web_app/main.go:72","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T10:57:25.183+0800","caller":"web_app/main.go:81","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T11:00:13.468+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T11:02:59.932+0800","caller":"web_app/main.go:72","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T11:02:59.933+0800","caller":"web_app/main.go:81","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T11:03:02.499+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T11:03:17.562+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000014625}
+{"level":"INFO","time":"2025-01-09T11:03:17.658+0800","caller":"logger/logger.go:69","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000000542}
+{"level":"INFO","time":"2025-01-09T11:03:56.122+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000129291}
+{"level":"INFO","time":"2025-01-09T11:03:56.989+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000025459}
+{"level":"INFO","time":"2025-01-09T11:04:09.607+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000009584}
+{"level":"INFO","time":"2025-01-09T11:04:11.903+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000011375}
+{"level":"INFO","time":"2025-01-09T11:04:12.424+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.0000115}
+{"level":"INFO","time":"2025-01-09T11:05:27.683+0800","caller":"web_app/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T11:05:27.684+0800","caller":"web_app/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2025-01-09T11:07:21.591+0800","caller":"web_app/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2025-01-09T11:07:25.883+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000021084}
+{"level":"INFO","time":"2025-01-09T11:07:49.143+0800","caller":"logger/logger.go:69","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","errors":"","cost":0.000011667}
+{"level":"INFO","time":"2025-01-09T11:07:58.251+0800","caller":"web_app/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-09T11:07:58.251+0800","caller":"web_app/main.go:80","msg":"Server exiting"}

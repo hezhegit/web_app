@@ -1,7 +1,8 @@
-aap:
+app:
   name: "web_app"
   mode: "dev"
   port: 8081
+  version: "v1.0.2"
 
 log:
   level: "debug"

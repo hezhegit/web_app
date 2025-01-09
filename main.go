@@ -14,8 +14,6 @@ import (
 	"web_app/routes"
 	"web_app/settings"
 
-	"github.com/spf13/viper"
-
 	"go.uber.org/zap"
 )
 
@@ -28,30 +26,30 @@ func main() {
 		return
 	}
 	// 2. 初始化日志
-	if err := logger.Init(); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig); err != nil {
 		fmt.Printf("init logger failed, err:%v\n", err)
 		return
 	}
 	defer zap.L().Sync()
 	zap.L().Debug("logger init success")
 	// 3. 初始化Mysql连接
-	if err := mysql.Init(); err != nil {
+	if err := mysql.Init(settings.Conf.MySQLConfig); err != nil {
 		fmt.Printf("init mysql failed, err:%v\n", err)
 		return
 	}
 	defer mysql.Close()
 
 	// 4. 初始化redis连接
-	if err := redis.Init(); err != nil {
+	if err := redis.Init(settings.Conf.RedisConfig); err != nil {
 		fmt.Printf("init redis failed, err:%v\n", err)
 		return
 	}
 	defer redis.Close()
 	// 5. 注册路由
-	r := routes.SetupRouter()
+	r := routes.SetupRouter(settings.Conf.AppConfig)
 	// 6. 启动服务（优雅关机）
 	srv := &http.Server{
-		Addr:    fmt.Sprintf(":%d", viper.GetInt("app.port")),
+		Addr:    fmt.Sprintf(":%d", settings.Conf.AppConfig.Port),
 		Handler: r,
 	}
 
